@@ -5,9 +5,14 @@ const app = express();
 app.get("/app", function(req, res){
     res.send("Olá, ta ok");
 })
-app.get("/produtos", (req, res) => {
-    res.send("Camisas <br>Calças <br>Shorts");
-})
+app.get("/produtos/:nome/categoria/:categoria", (req, res) => {
+    res.send(
+    {
+        nome: req.params.nome,
+        categoria: req.params.categoria
+    })
+});
+
 app.delete("/produtos/camisa", (req, res) =>{
     res.send("Camisa cabo po kkkk <br> ENDPOINT da camisa via postman");
 })
