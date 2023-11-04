@@ -1,2 +1,2 @@
-const valor1 = 'KKKKKKKKKKKKKKKK'
-console.log('Eu digo: ', valor1);
+const valor1 = "KKKKKKKKKKKKKKKK";
+console.log("Eu digo: ", valor1);
