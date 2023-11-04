@@ -4,6 +4,7 @@
   "description": "node_project",
   "main": "teste.js",
   "scripts": {
+    "nodepoco": "npx nodemon app.js",
     "fulanu": "node app.js",
     "start": "node teste.js"
   },
@@ -11,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }

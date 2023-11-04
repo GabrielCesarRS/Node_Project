@@ -5,11 +5,12 @@ const app = express();
 app.get("/app", function(req, res){
     res.send("Olá, ta ok");
 })
-app.get("/produtos/:nome/categoria/:categoria", (req, res) => {
+app.get("/produtos/:nome/categoria/:categoria/valor/:valor", (req, res) => {
     res.send(
     {
         nome: req.params.nome,
-        categoria: req.params.categoria
+        categoria: req.params.categoria,
+        valor: req.params.valor
     })
 });
 
