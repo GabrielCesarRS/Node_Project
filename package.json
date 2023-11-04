@@ -4,6 +4,7 @@
   "description": "node_project",
   "main": "teste.js",
   "scripts": {
+    "fulanu": "node app.js",
     "start": "node teste.js"
   },
   "author": "",
