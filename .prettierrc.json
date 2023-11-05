@@ -1,7 +1,7 @@
 {
-    "singleQuote": true, //Aspas duplas ou simples
-    "trailingComma": "all", //vírgula após o último objeto
-    "printWidth": 100, //Quantidade de caracteres permitidos na msm linha antes da quebra
-    "tabWidth": 2, //tamanho do tab (quantidade de caracteres pulados ao apertar tab)
-    "semi": true //Ponto e vírgula
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 100, 
+    "tabWidth": 2,
+    "semi": true
 }
