@@ -1,6 +1,6 @@
 import express from 'express';
 
-const app = express()
+const app = express();
 
 app.get('/app', function (req, res) {
   res.send('Olá, ta ok');
